@@ -1,4 +1,4 @@
 Wisconsin
-=========
+========
 
-SGP Source Code and analyses associated with Wisconsin
+SGP source code and documentation associated with Wisconsin SGP analyses
