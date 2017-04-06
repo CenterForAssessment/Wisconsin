@@ -1,6 +1,6 @@
 #####################################################################################
 ###
-### Rhode Island analyses for 2015-2016
+### Wisconsin SGP analyses for 2016
 ###
 #####################################################################################
 
@@ -18,8 +18,10 @@ load("Data/WSAS_ADDITIONAL.Rdata")
 
 Wisconsin_SGP <- abcSGP(
 			WSAS_ADDITIONAL,
+			state="WI",
 #			steps=c("prepareSGP", "analyzeSGP", "combineSGP", "summarizeSGP", "outputSGP"),
 			steps=c("prepareSGP", "analyzeSGP", "combineSGP", "outputSGP"),
+			years= "2016"
 			sgp.percentiles=TRUE,
 			sgp.projections=TRUE,
 			sgp.projections.lagged=TRUE,
