@@ -21,7 +21,7 @@ Wisconsin_SGP <- abcSGP(
 			state="WI",
 #			steps=c("prepareSGP", "analyzeSGP", "combineSGP", "summarizeSGP", "outputSGP"),
 			steps=c("prepareSGP", "analyzeSGP", "combineSGP", "outputSGP"),
-			years= "2016"
+			years= "2016",
 			sgp.percentiles=TRUE,
 			sgp.projections=TRUE,
 			sgp.projections.lagged=TRUE,
